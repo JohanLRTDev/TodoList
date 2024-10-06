@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200 min-h-screen ">
+    <!-- Container Principal -->
+    <div class="min-w-full max-w-full text-center bg-gray-100 p-8  shadow">
+      <h1 class="uppercase tracking-wide text-2xl text-purple-800 font-extrabold mb-8">To Do List</h1>
+
+      <form action="" class="flex items-center justify-center space-x-3">
+        <input type="text" id="titleInput" autocomplete="off" placeholder="Title" class="bg-gray-100 w-48 h-10 rounded-md px-4 border-2 border-gray-300 text-sm outline-none placeholder-gray-500 focus:border-3 focus:bg-gray-50 focus:placeholder-opacity-0">
+        <input type="text" id="todoInput" autocomplete="off" placeholder="Description" class="bg-gray-100 w-48 h-10 rounded-md px-4 border-2 border-gray-300 text-sm outline-none placeholder-gray-500 focus:border-3 focus:bg-gray-50 focus:placeholder-opacity-0">
+        <button class="flex items-center justify-center bg-purple-500 text-white font-bold py-2 px-4 rounded-md" type="button" id="validBtn">+</button>
+      </form>
+    </div>
+
+    <ul id="list" class=" w-full max-w-xl mx-auto bg-gray-50 rounded-l shadow-lg space-y-4"> 
+  </ul>
+      <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
